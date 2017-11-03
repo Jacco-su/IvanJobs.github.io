@@ -1,30 +1,21 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
+<img src="/assets/head.jpg" style="width:150px;height:150px">
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hi there, I am Ivan Jobs.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am a <b>software engineer</b>, a <b>math lover</b>, and also a <b>marathon runner</b>.
 
-There are currently two themes built on Poole:
+This site is dedicated to providing infomation about me and what I do.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I currently work in **Shang Hai**, in a nice company called [zamplus](http://www.zamplus.com/),
+as a <b>C++ Backend Engineer</b>.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I am interested in <b>Backend Technology</b>, <b>Math</b>, <b>C++</b>, <b>Sports</b> and <b>Finances</b>.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<p><br /><b>Feel free to contact:</b></p>
+<blockquote>
+ivan1377@163.com
+</blockquote>
