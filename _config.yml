@@ -1,6 +1,0 @@
-permalink: /:title
-
-title: IvanJobs' Blog 
-url: https://ivanjobs.github.io
-feed: /atom.xml
-author_info: <a href="https://ivanjobs.github.io">IvanJobs</a>
