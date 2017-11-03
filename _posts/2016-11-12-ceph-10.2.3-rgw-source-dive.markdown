@@ -1,0 +1,230 @@
+---
+layout: post
+title: Ceph v10.2.3 RGW源码解析1
+---
+因公司业务发展要求，最近需要做一些Ceph RGW相关的工作。对RGW的原理只知一二，在未来维护的过程中，将带来极大的阻力，
+故在此利用周末时间，进一步学习、梳理Ceph RGW底层原理（主要还是以源码为线索）。
+
+因为现在还不够了解RGW，所以每篇关于RGW的源码分析，有些发散。
+
+### RGWIntentEvent(rgw_common.h)
+{% highlight bash %}
+enum RGWIntentEvent {
+  DEL_OBJ = 0,
+  DEL_DIR = 1,
+};
+{% endhighlight %}
+这个定义似乎没有用到。grep了关键字，没有在其他地方出现过。
+
+### RGWObjCategory(rgw_common.h)
+{% highlight bash %}
+enum RGWObjCategory {
+  RGW_OBJ_CATEGORY_NONE      = 0,
+  RGW_OBJ_CATEGORY_MAIN      = 1,
+  RGW_OBJ_CATEGORY_SHADOW    = 2,
+  RGW_OBJ_CATEGORY_MULTIMETA = 3,
+};
+{% endhighlight %}
+字面意思是Obj的分类。
+而且还有一个专门的函数，用户返回分类名称：
+{% highlight bash %}
+static inline const char *rgw_obj_category_name(RGWObjCategory category)
+{
+  switch (category) {
+  case RGW_OBJ_CATEGORY_NONE:
+    return "rgw.none";
+  case RGW_OBJ_CATEGORY_MAIN:
+    return "rgw.main";
+  case RGW_OBJ_CATEGORY_SHADOW:
+    return "rgw.shadow";
+  case RGW_OBJ_CATEGORY_MULTIMETA:
+    return "rgw.multimeta";
+  }
+
+  return "unknown";
+}
+{% endhighlight %}
+
+### RGWObjManifestRule(rgw_rados.cc)
+{% highlight bash %}
+/*
+ The manifest defines a set of rules for structuring the object parts.
+ There are a few terms to note:
+     - head: the head part of the object, which is the part that contains
+       the first chunk of data. An object might not have a head (as in the
+       case of multipart-part objects).
+     - stripe: data portion of a single rgw object that resides on a single
+       rados object.
+     - part: a collection of stripes that make a contiguous part of an
+       object. A regular object will only have one part (although might have
+       many stripes), a multipart object might have many parts. Each part
+       has a fixed stripe size, although the last stripe of a part might
+       be smaller than that. Consecutive parts may be merged if their stripe
+       value is the same.
+*/
+{% endhighlight %}
+上面提出了part和stripe的概念，感觉很受用啊。
+
+### rgw_bucket(rgw_common.h)
+{% highlight bash %}
+struct rgw_bucket {
+  std::string tenant;
+  std::string name;
+  std::string data_pool;
+  std::string data_extra_pool; /* if not set, then we should use data_pool instead */
+  std::string index_pool;
+  std::string marker;
+  std::string bucket_id;
+
+  std::string oid; /*
+                    * runtime in-memory only info. If not empty, points to the bucket instance object
+                    */
+{% endhighlight %}
+
+### RGWObjEnt(rgw_common.h)
+{% highlight bash %}
+/** Store basic data on an object */
+struct RGWObjEnt {
+  rgw_obj_key key;
+  std::string ns;
+  rgw_user owner;
+  std::string owner_display_name;
+  uint64_t size;
+  ceph::real_time mtime;
+  string etag;
+  string content_type;
+  string tag;
+  uint32_t flags;
+  uint64_t versioned_epoch;
+{% endhighlight %}
+
+### 操作顺序
+1. 对象内容写入file
+2. 更新对象属性
+3. append update log
+
+### 跟踪一个请求
+rgw_main.cc:
+
+是否选择civetweb作为Frontend。
+{% highlight c++ %}
+RGWRados *store = RGWStoreManager::get_storage(g_ceph_context,
+      g_conf->rgw_enable_gc_threads, g_conf->rgw_enable_quota_threads,
+            g_conf->rgw_run_sync_thread);
+{% endhighlight %}
+RGWRados这个类是干啥的？貌似比较核心的接口，都是在这个类里定义的。
+
+{% highlight c++ %}
+RGWREST rest;
+...
+rest.register_default_mgr(set_logging(new RGWRESTMgr_S3(s3website_enabled)));
+{% endhighlight %}
+这个RGWREST是干啥的？没怎么看出来，把REST抽象出来？下面可以接S3或者Swift或者其他？
+
+RGWMongooseFrontend:
+{% highlight c++ %}
+class RGWMongooseFrontend : public RGWFrontend {
+  RGWFrontendConfig* conf;
+  struct mg_context* ctx;
+  RGWMongooseEnv env;
+
+  void set_conf_default(map<string, string>& m, const string& key,
+            const string& def_val) {
+    if (m.find(key) == m.end()) {
+      m[key] = def_val;
+    }
+  }
+
+public:
+  RGWMongooseFrontend(RGWProcessEnv& pe, RGWFrontendConfig* _conf)
+    : conf(_conf), ctx(nullptr), env(pe) {
+  }
+
+  int init() {
+    return 0;
+  }
+
+  int run();
+
+  void stop() {
+    if (ctx) {
+      mg_stop(ctx);
+    }
+  }
+
+  void join() {
+  }
+
+  void pause_for_new_config() override {
+    // block callbacks until unpause
+    env.mutex.get_write();
+  }
+
+  void unpause_with_new_config(RGWRados *store) override {
+    env.store = store;
+    // unpause callbacks
+    env.mutex.put_write();
+  }
+}; /* RGWMongooseFrontend */
+{% endhighlight %}
+最后civetweb启动，是下面的代码(rgw_civetweb_frontend.cc):
+{% highlight c++ %}
+  struct mg_callbacks cb;
+  memset((void *)&cb, 0, sizeof(cb));
+  cb.begin_request = civetweb_callback;
+  cb.log_message = rgw_civetweb_log_callback;
+  cb.log_access = rgw_civetweb_log_access_callback;
+  ctx = mg_start(&cb, &env, (const char **)&options);
+{% endhighlight %}
+
+civetweb接入请求之后的处理在哪里？
+
+
+{% highlight c++ %}
+struct RGWBucketInfo
+{
+  enum BIShardsHashType {
+    MOD = 0
+  };
+
+  rgw_bucket bucket;
+  rgw_user owner;
+  uint32_t flags;
+  string zonegroup;
+  ceph::real_time creation_time;
+  string placement_rule;
+  bool has_instance_obj;
+  RGWObjVersionTracker objv_tracker; /* we don't need to serialize this, for runtime tracking */
+  obj_version ep_objv; /* entry point object version, for runtime tracking only */
+  RGWQuotaInfo quota;
+
+  // Represents the number of bucket index object shards:
+  //   - value of 0 indicates there is no sharding (this is by default before this
+  //     feature is implemented).
+  //   - value of UINT32_T::MAX indicates this is a blind bucket.
+  uint32_t num_shards;
+
+  // Represents the bucket index shard hash type.
+  uint8_t bucket_index_shard_hash_type;
+
+  // Represents the shard number for blind bucket.
+  const static uint32_t NUM_SHARDS_BLIND_BUCKET;
+
+  bool requester_pays;
+
+  bool has_website;
+  RGWBucketWebsiteConf website_conf;
+
+  RGWBucketIndexType index_type;
+
+  bool swift_versioning;
+  string swift_ver_location;
+{% endhighlight %}
+可以看出，这个结构里面定义了Bucket相关的很多业务信息。rgw_common.h里定义了大多数数据结构，
+并且提供了encode/decode方法，方便跟rados接口对接。
+
+### 参考
+[2015-MAR-26 -- Ceph Tech Talks: RGW](https://www.youtube.com/watch?v=zvfv3pXq0Ww)
+[Ceph & RocksDB](http://www.slideshare.net/sageweil1/ceph-and-rocksdb?qid=a85dad36-c4ea-452e-a91f-e933bd228144&v=&b=&from_search=47)
+[Bluestore](http://www.slideshare.net/Inktank_Ceph/ceph-tech-talk-bluestore)
+[ceph RGW接口源码解析--Rados数据操作](https://my.oschina.net/u/2271251/blog/355074)
