@@ -1,0 +1,32 @@
+---
+layout: post
+title: 硬盘模型
+---
+
+作为一个专注于存储的工程师，有必要了解一下硬盘的存储模型，硬盘是过去几十年支持计算机的主要存储形式。
+
+### 核心概念
+现代的磁盘是以**扇区**为读写的最小粒度，也就是说硬盘层可以保证扇区级的原子读写。并且有几个假设，读取临近的扇区比读取不临近的扇区速度要快，顺序读写要比随机读写快。
+
+一块硬盘，包含多个Platter(盘片)，这些个盘片以一个旋转的读写轴头(Spindle)为圆心，每个盘片上分为多个Track(轨道)，每个Track上有多个Sector，每个Sector 512 Bytes。硬盘的转速在7200RPM~15000RPM之间。在进行读写的时候，涉及到两个概念Disk Head(磁头)，和Disk Arm(磁臂)。每个盘片的上下两个面都会各有一个磁头，磁臂只有一个，上下穿梭于盘片之间。在同一个Track上定位盘片，这个时间叫做Seek Time, 磁头是用来定位扇区的，这个叫做Rotational Delay。读写数据所需要的时间叫做Transfer, 所以为了实现一次磁盘的读写请求，大体上包括三个时间, Seek, Rotate, Transfer。
+
+有一个概念叫做Track Skew, 因为Seek需要时间/不同半径的Track拥有不同的Sector个数，所以需要一个Skew来平衡。
+
+disk cache是一个内存区域，可以用来放置读取或者写入的数据。有两种类型的cache, 一个是Write Back，一个是Write Through, 前一个是写入cache即ack，后一个是写入磁盘再ack。
+
+### 磁盘I/O调度
+SSTF: 最短寻道时间为先，把一系列的磁盘IO请求，按照track就近排列。
+
+NBF: block最近优先调度。
+
+以上两种磁盘调度算法，都会出现starving的问题，也就是说，如果情况凑巧，有些磁盘IO请求，永远都不会得到处理。为了解决starving的问题，就出现了一种叫做SCAN的算法，也叫做Elevator算法，这种算法，就是一遍遍的扫描，从1楼到顶楼，再从顶楼到1楼诸如此类，核心思想在这里了，根据扫描方式的不同，也有一些变种。
+
+那么SCAN是最好的磁盘调度算法么？当然不是，因为SCAN只考虑了变道层面的问题，也就是Seek Time的开销，没有考虑Rotate Time的开销，这样显然不是最优的了。
+
+什么是最好的磁盘调度算法？这个得具体情况具体分析。其中需要考虑的因素之一是Seek Time和Rotate Time的大小，这个是决定哪一个请求先被服务的一个因素，当然也有其他的很多因素，在这些上下文条件确定的情况下，我们才可以去评判具体的哪一种调度算法最优。另外，IO合并也是一个需要考虑的因素。
+
+### 总结
+这里总结的是机械硬盘的模型，SSD是另外一回事。记住核心的概念即可，比如Platter/Track/Sector/Spindle/Seek Time/Rotate Time/Transfer Time等。
+
+### 参考
+[file disk](http://www.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)

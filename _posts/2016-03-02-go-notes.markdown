@@ -1,0 +1,46 @@
+---
+layout: post
+title: Go笔记
+---
+![](/assets/go-logo.png)
+
+Go号称是互联网时代的C语言，学习它主要是因为docker，意识到docker会是未来云平台的一种趋势，而且潜力很大，作为云平台领域的工作者，很有必要认真的学习Go以及阅读docker的源码。
+
+### 安装
+{% highlight bash %}
+sudo apt-get install -y golang-go
+{% endhighlight %}
+
+推荐使用gvm来安装go:
+{% highlight bash %}
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+
+gvm install go1.6
+
+gvm use go1.4.2 --default
+
+go version
+
+go env
+{% endhighlight %}
+
+### 第一个程序，构建和运行
+hello.go:
+{% highlight go %}
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello Go!")
+}
+{% endhighlight %}
+
+{% highlight bash %}
+go build hello.go
+
+./hello
+{% endhighlight %}
+这样就打印出了字符串，因为笔者有多年的C/C++编程经验，这里就不赘述了。
+
+
