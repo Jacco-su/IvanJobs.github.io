@@ -10,6 +10,8 @@
     <div class="content container">
       {{ content }}
     </div>
-
+    {% if page.comments %}
+      {% include comments.html %}
+    {% endif %}
   </body>
 </html>
