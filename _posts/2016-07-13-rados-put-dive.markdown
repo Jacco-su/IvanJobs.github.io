@@ -5,7 +5,8 @@ title: Ceph源码解析(3)-rados put过程探究
 之前写过一篇源码解析，分析了object到PG一层的映射关系，其中关键的函数为ceph_stable_mod。但是
 对于PG到OSDs这层映射却没有提及，而这一层映射是CRUSH算法最核心的地方，对应到OSDMap.cc里的
 _pg_to_osds函数。代码如下：
-{% highlight c++ %}
+
+```
 int OSDMap::_pg_to_osds(const pg_pool_t& pool, pg_t pg,
                         vector<int> *osds, int *primary,
             ps_t *ppps) const
@@ -33,7 +34,8 @@ int OSDMap::_pg_to_osds(const pg_pool_t& pool, pg_t pg,
 
   return osds->size();
 }
-{% endhighlight %}
+```
+
 可以从代码看到基本逻辑“找到对应crush rule，do rule，遍历OSDs返回第一个不是CRUSH_ITEM_NONE的osd作为Primary”。
 本来想利用ldout来打印log，但发现ldout依赖于传入的cct，于是直接使用cout。重新编译
 ceph源码，创建一个新的pool，并且上传一个新的object，日志如下：
