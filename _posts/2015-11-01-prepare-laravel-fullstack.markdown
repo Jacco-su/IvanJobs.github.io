@@ -2,8 +2,7 @@
 layout: post
 title: 搭建Laravel全栈开发环境
 published: true
-categories: ['Web']
-tags: ['Laravel', '全栈', 'PHP']
+category: web 
 ---
 
 ## 系统以及软件包版本信息：

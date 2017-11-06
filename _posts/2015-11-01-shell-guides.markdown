@@ -2,8 +2,7 @@
 layout: post
 title: shell脚本编写向导
 published: true
-categories: []
-tags: []
+category: bash
 ---
 
 ## 前面的话

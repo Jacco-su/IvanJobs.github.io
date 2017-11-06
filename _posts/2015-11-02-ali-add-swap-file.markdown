@@ -2,8 +2,7 @@
 layout: post
 title: 阿里云服务器设置swapfile的方法
 published: true
-categories: []
-tags: []
+category: ops
 ---
 
 

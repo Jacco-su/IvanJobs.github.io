@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 从一个request的角度观察Laravel框架
+category: web
 ---
 
 Http协议在“请求－响应”模型下，定义了一套Http应用的业务规则。而Web Framework,则是在“请求－响应”模型下，实现的一套设计来解决Web后端开发的常见问题。
