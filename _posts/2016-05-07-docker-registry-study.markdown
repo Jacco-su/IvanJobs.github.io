@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker Private Registry(Ceph Swift) 搭建笔记
+category: ceph
 ---
 
 为了配合公司内部的业务流程，往往需要一个私有的Docker Registry。和Docker配合的CD和CI，就非常需要一个Docker Registry。直接使用官方的docker registry, Docker Registry V1用python开发，设计上存在极大的缺陷，所以出现了Docker Registry V2（2015年4月份发布）, 使用Go开发，重新进行了设计。现在直接使用Docker Registry V2进行私有Registry的搭建。

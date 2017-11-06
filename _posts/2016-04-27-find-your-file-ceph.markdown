@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在Ceph底层xfs上找到你上传的文件
+category: ceph
 ---
 
 ### 上传一个文件

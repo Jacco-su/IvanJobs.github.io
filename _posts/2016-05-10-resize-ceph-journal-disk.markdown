@@ -1,6 +1,7 @@
 ---
 layout: post
 title: resize Ceph OSD的日志磁盘
+category: ceph
 ---
 本篇目的是为了记录，resize OSD 日志磁盘的过程，注意这里OSD后端filestore为xfs文件，日志单独存在一个磁盘上，方便扩容。
 

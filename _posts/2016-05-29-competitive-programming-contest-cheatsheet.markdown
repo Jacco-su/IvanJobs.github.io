@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 算法比赛CheatSheet
+category: 算法
 ---
 
 

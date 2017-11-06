@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 题解[第二周]
+category: 算法
 ---
 
 ### CF354DIV2B

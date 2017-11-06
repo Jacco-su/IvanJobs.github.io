@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Git 我错了！ 
+category: git
 ---
 
 Git是一款十分优秀的版本管理软件，大家平时在使用的时候，可能比较熟悉基本的用法：git clone, git pull, git add, git commit, git push。一旦这个过程中，出现什么错误，想要撤销自己之前的操作时，可能会不太清楚应该使用什么命令。下面根据作者的经验，列举一些跟撤销相关的操作。

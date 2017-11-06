@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MathQuill Math Equation Cheatsheet
+category: math
 ---
 
 ### 希腊字符

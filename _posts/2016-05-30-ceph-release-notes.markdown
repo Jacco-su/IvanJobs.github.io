@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph Release 概述
+category: ceph
 ---
 
 

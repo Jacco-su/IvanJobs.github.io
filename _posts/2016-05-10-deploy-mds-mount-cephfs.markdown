@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 部署MDs,挂载CephFS
+category: ceph
 ---
 
 ### 安装MDs

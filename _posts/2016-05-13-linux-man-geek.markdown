@@ -1,6 +1,7 @@
 ---
 layout: post
 title: linux man高级技巧
+category: linux
 ---
 
 最近在coding系统编程，一直想找一个手册查询工具，查看一些系统级接口的文档，但是似乎没有找到。后来，猛然发现

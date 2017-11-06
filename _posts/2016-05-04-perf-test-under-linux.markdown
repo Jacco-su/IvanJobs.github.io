@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux下性能测试工具
+category: ops
 ---
 dd, fio, collectl, seekwatcher, blktrace, iostat
 

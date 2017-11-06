@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 题解[第一周]
+category: 算法
 ---
 
 ### LA 3708
