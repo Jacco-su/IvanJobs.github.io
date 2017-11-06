@@ -1,0 +1,28 @@
+---
+layout: post
+title: Python2.7算法比赛CheatSheet
+---
+
+### GCD
+```
+# a >= 0, b >= 0
+def gcd(a, b):
+    if a == 0:
+        return b
+    while b != 0:
+        if a > b:
+            a -= b
+        else:
+            b -= a
+    return a
+```
+
+### 多维数组定义
+```
+def arr2(r, c):
+    return [[0 for c0 in xrange(c + 1)] for r0 in xrange(r + 1)]
+
+def arr3(x, y, z):
+    return [[[0 for z0 in xrange(z + 1)] for y0 in xrange(y + 1)] for x0 in xrange(x + 1)]
+```
+
