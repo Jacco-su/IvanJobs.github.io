@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用Nginx做LB
+category: ops
 ---
 使用LB可以提高Web系统的吞吐量、降低访问延时、提高资源的利用率，本质上是一种多实例分担压力的模型。LB在Web系统服务领域，应用的十分广泛。之前有一段时间，部署并测试了HAProxy实现的负载均衡，今天使用我比较熟悉的Nginx来实现这一目的。下面是对Nginx实现LB的详细讲解。
 

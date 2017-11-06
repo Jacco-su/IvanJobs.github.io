@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux用户管理命令
+category: ops
 ---
 
 ## 创建新用户

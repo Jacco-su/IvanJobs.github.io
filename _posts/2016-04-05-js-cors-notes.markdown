@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JS跨越问题笔记
+category: javascript
 ---
 跨越是web前端开发中，比较常见的问题。
 

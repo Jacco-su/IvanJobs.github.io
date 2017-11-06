@@ -1,6 +1,7 @@
 ---
 layout: post
 title: git merge 详解
+category: git
 ---
 
 最近遇到一个关于git merge什么时候会出现冲突的问题，借机认真学习和实验了一下git merge命令。下面把实验的过程和得到的

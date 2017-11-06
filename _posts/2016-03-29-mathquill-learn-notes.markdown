@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MathQuill学习笔记
+categories: math javascript
 ---
 
 ### 库引入

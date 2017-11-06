@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DTrace是什么？
+category: ops
 ---
 DTrace是Dynamic Trace的简称。
 

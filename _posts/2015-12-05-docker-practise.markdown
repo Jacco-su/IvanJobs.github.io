@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker操作记录
+category: docker
 ---
 <img src="/assets/docker-friends.png">
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ubuntu14.04下安装devstack
+category: openstack
 ---
 
 在另外一篇博客中，我提供了openstack的镜像环境，大家可以很方便的下载使用，快速的融入openstack的环境中。但如何使用devstack的版本库进行安装，其实是没有多大的概念的，所以提供了本篇博文。

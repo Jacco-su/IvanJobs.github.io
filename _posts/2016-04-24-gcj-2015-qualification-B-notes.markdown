@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GCJ2015 Qualification Round-B题解
+category: 算法
 ---
 最近在准备GCJ，两三年前参加过两次GCJ，都是止步于Round 1。今年卷土重来，希望能够有所突破。在做2015的Qualification Round的时候，B题没有特别的思路，最后看了go-hero的代码，仔细思考之后，有一些所得，故有此题解。
 

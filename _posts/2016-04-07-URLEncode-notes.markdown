@@ -1,6 +1,7 @@
 ---
 layout: post
 title: URLEncoder学习笔记
+category: 算法
 ---
 前段时间和同事一起集成了Ceph RGW的接口，其中涉及到了中文object name的问题，使用URL编码成功解决了该问题。但对URL编码的前世今生，不是十分了解，心里难免骨鲠在喉，所以今天做个小研究，作此博客。
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SLA是什么？
+category: 其他
 ---
 SLA, 即Service Level Agreement, 是服务提供者和客户之间的一套协议，用于规定提供服务的品质、出现意外情况下的处理措施、以及赔偿等相关内容。
 

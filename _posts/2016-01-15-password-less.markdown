@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Password Less SSH login and sudoers
+category: ops
 ---
 
 在安装ceph的时候，需要一个ceph-deloy节点，3个node接口，并且要求ceph-deploy有不需要密码ssh登录其他三个node的功能，并且登录进入的user需要有不需要密码的sudoer权限。参考[无密码ssh登录](http://linuxconfig.org/passwordless-ssh)和[无密码sudoer](http://serverfault.com/questions/160581/how-to-setup-passwordless-sudo-on-linux)。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph块存储笔记
+category: ceph
 ---
 
 因为需要给Docker容器云服务提供块存储服务，所以暂时把重心转到RBD这块的学习和积累，慢慢的揭开块存储服务在我心中的面纱。

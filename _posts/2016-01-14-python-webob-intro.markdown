@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python WebOb库笔记
+category: python
 ---
 
 ### 什么是webob?

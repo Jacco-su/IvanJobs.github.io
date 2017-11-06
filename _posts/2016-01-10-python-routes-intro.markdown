@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Routes库笔记
+category: python
 ---
 
 routes这个库，是模仿rails实现的路由库，主要提供一些路由相关的功能和辅助函数。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux下理解filesystem/device/mount等概念
+categories: ops os
 ---
 最近在研究ceph，觉得有必要把linux下的这些概念弄得更加清晰一些，虽然对这些概念有一些认识，但是在真正的问题面前，这样的理解显然是不够的。
 

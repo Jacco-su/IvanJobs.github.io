@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph RADOS论文研读笔记
+category: ceph
 ---
 
 Ceph比较核心的架构和理念都来自于Sage的一篇论文，对于想要深入研究Ceph的同学，很有必要深入的研读这篇论文，这样对Ceph就会有最深入的认识，特此笔记，以备后用。

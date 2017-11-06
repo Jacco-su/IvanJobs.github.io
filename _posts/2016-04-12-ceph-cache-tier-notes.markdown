@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph Cache Tier笔记
+category: ceph
 ---
 Cache Tier是ceph服务端缓存的一种方案，简单来说就是加一层Cache层，客户端直接跟Cache层打交道，提高访问速度，后端有一个存储层，实际存储大批量的数据。
 

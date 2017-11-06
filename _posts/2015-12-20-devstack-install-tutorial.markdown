@@ -1,6 +1,7 @@
 ---
 layout: post
 title: devstack 安装指南【最简单】
+categories: openstack 
 ---
 
 OpenStack是眼下炙手可热的云计算方案，但由于安装部署困难，很多学习者都望而却步。笔者决心专注于OpenStack方向的积累，所以在网上进行了大量的调研，最终尝试出了一种最简单的方法安装devstack，这里的安装仅供学习使用，不能用作生产环境。

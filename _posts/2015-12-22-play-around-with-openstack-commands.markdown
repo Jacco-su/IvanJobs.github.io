@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 玩转OpenStack Commands
+category: openstack
 ---
 
 我们可以通过OpenStack的Dashboard(horizon项目)获得管理OpenStack资源的能力，但是作为运维和开发者，更应该能够熟练使用OpenStack的诸多命令。今天就给大家展示和梳理OpenStack常用的一些命令。

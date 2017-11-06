@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OpenStack Projects简述
+category: openstack
 ---
 
 OpenStack包含的项目实在太多了，除了Nova, Cinder, Glance, Neutron这几个核心项目外，还包括非常多杂七杂八的项目，对于这众多的项目有一个基本认识，对于认识OpenStack的全貌有非常基础的作用。

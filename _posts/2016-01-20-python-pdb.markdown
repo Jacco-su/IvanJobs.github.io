@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python pdb笔记
+category: python
 ---
 
 python的pdb就像gcc的gdb，笔者有一定的gdb使用经验，虽然具体命令可能忘记了，但大体的概念还是有的。这里对pdb做一个简单的笔记，以备后用。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker化Laravel开发环境
+categories: docker laravel
 ---
 docker的一大价值在于，它可以缓存化运行环境，给开发、测试、部署带来极大的效率提升。这里利用docker来优化，laravel的开发测试部署流程。
 

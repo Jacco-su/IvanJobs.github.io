@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Consistent Hashing (一致性哈希)笔记
+category: 算法
 ---
 
 关于一致性哈希，[这篇博文](http://blog.codinglabs.org/articles/consistent-hashing.html)可谓写的浅显易懂。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux iptables笔记
+category: ops
 ---
 
 iptables是内核提供的防火墙（炫酷的比喻），主要功能是过滤ip包（参考网络基础）。以前一直没有深入认识和学习这个小伙伴，今天查阅网络资料并且自己动手实践，跟iptables进行深入的认识和交流。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OpenStack API Guide 笔记
+category: openstack
 ---
 
 ### 测试工具

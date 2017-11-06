@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RabbitMQ 和 oslo.messaging
+category: openstack
 ---
 
 我们知道，OpenStack作为一个复杂的云平台系统，其架构设计有很大的借鉴价值。OpenStack各个项目之间的纽带是HTTP RESTful API, 而项目内部各个模块之间使用的是AMQP协议的消息队列，使用最多的一个实现就是RabbitMQ, 学习RabbitMQ有很大的价值，并且在oslo中提供了messaging的封装库，下面记录自己的学习笔记，以备后用。

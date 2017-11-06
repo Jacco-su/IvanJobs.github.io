@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph论文阅读笔记
+category: ceph
 ---
 
 ### NFS

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OpenStack使用的Python库列表
+category: python
 ---
 
 ### six

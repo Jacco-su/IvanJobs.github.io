@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 访问Ceph RGW失败 403 Forbidden问题 解决历程
+category: ceph
 ---
 
 以前的时候，写过一些测试Ceph RGW接口的脚本，比如[get user info](https://github.com/IvanJobs/play/blob/master/ceph/admin-ops/get_user_info.py), 今天执行的时候，Python脚本报错403 Forbidden，check了一段时间，还是没有找到问题。因为这个脚本上次用过，没有问题，过了一段时间到现在，突然就不行了，很奇怪。思忖良久之后，仍然没有找到问题所在，所以抱着试试看的心态，使用tcpdump进行抓包。

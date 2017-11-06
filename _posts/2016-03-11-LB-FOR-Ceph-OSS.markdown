@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 为Ceph OSS服务搭建LB
+categories: ceph ops
 ---
 
 最近这段时间，工作的内容主要集中在基于Ceph的OSS服务搭建，做的工作主要包括两个方面：1.使用ceph-deploy搭建ceph cluster。 2. 测试Ceph S3接口并编写接口文档。但仅仅这样是不够的，Ceph OSS服务的前端需要架设LB, 这样能够很好的应对高并发请求以及提高接口访问（缓存）。以下是我的研究实践笔记，以备后用。

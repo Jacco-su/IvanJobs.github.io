@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph集群部署笔记
+categories: ceph ops
 ---
 
 准备用3台虚拟机搭建ceph集群，为了以后复习方便，这里做下笔记。

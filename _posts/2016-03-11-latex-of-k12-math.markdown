@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Latex数学符号
+category: math
 ---
 
 ### 上标和下标

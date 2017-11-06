@@ -1,6 +1,7 @@
 ---
 layout: post
 title: virtualenv使用笔记
+category: python
 ---
 
 准备写一个REST API的测试脚本，使用的是Python，需要用到urllib.request模块，但是在Python2.7中，并不存在这个模块，所以急需一个Python 3.5 的环境。之前一直听说virtualenv的强大之处，但没有深入使用，今天学习一下virtualenv, 以备后用。

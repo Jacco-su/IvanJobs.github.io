@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 如何使用salt states?
+category: ops
 ---
 saltstack的配置管理，使用salt state这个核心来实现，SLS文件用来表达一个系统应该处于的状态。
 

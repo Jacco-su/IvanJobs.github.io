@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用s3cmd操作ceph rgw
+category: ceph
 ---
 
 ### 安装

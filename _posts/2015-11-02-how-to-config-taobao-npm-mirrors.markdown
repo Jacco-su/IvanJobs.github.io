@@ -2,7 +2,7 @@
 layout: post
 title: 如何配置淘宝npm镜像？
 published: true
-category: ops
+categories: ops nodejs
 ---
 
 

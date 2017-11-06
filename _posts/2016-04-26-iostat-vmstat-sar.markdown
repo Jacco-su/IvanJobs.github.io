@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iostat, vmstat, sar使用笔记 
+category: ops
 ---
 
 ### iostat

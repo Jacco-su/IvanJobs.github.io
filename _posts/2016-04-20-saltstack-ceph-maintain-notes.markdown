@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用saltstack部署运维ceph集群笔记
+category: ops
 ---
 一直在用ceph-deploy进行ceph集群的运维，在ceph集群节点较少时，使用ceph-deploy还是比较方便的，但一旦后期逐步扩容，节点达到几十、上百或者更多时，使用ceph-deploy难免捉襟见肘，所以很有必要使用一款专业的配置管理运维工具，综合比较下来，saltstack是一个不错的选择。
 

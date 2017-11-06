@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jenkins' Hash Functions
+category: 算法
 ---
 
 在ceph中使用了Jenkins的hash函数，hash.c的注释里提供了[链接](http://burtleburtle.net/bob/hash/evahash.html)。这里做下笔记。

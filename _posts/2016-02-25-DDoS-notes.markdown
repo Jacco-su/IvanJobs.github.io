@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DDoS攻击是什么？
+category: ops
 ---
 
 最近在调研分布式对象存储服务，遇到了个DDoS攻击的概念，这里做下笔记，以备后用。

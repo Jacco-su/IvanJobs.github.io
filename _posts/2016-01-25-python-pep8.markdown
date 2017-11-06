@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python PEP8规范笔记
+category: python
 ---
 
 PEP8是我在阅读python相关的博客最常见的一个词语，因为它是python的一个普遍接受的编码规范，今天在仔细阅读[PEP8文档](https://www.python.org/dev/peps/pep-0008/)的基础上，写下这篇笔记。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用Python inotify监控文件变化
+category: python
 ---
 ### 安装
 ```

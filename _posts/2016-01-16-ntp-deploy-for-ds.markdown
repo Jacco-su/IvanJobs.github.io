@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NTP部署笔记
+category: ops
 ---
 
 对于大型的分布式系统来说，同步时钟往往是个基础而关键的问题，通常都是将分布式节点设置ntp服务，并配置同一个ntp server进行时间的同步，这里介绍一下在ubuntu下部署和配置NTP的笔记。

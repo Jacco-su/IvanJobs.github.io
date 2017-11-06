@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NAT是什么意思?
+category: ops
 ---
 
 ### 基本认识

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph源码分析：从一个REST请求，到OSD存储。
+category: ceph
 ---
 
 Ceph最核心的是CRUSH算法，而要理解CRUSH算法，固然有一些文档可以参考，但终究抵不上从源代码层面的深究，这里尝试从一个RGW REST请求出发，到最终存储数据到OSD上，以整个过程触及到的代码为线索，深入学习CRUSH算法。

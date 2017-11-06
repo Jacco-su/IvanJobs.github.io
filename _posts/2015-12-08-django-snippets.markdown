@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Django常用代码片段
+categories: django python
 ---
 
 (⊙o⊙)…Python是我比较喜欢的一个语言，而在Web开发方面Django确实是Python中比较强大的一款框架。由于它本身是一个比较重量级的框架，所以需要我们花费更多的时间去熟悉和学习。下面是我学习和工作中遇到的，感觉有帮助的一些代码或者操作片段，用自己的语言记下来，以备不时之需。

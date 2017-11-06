@@ -1,6 +1,7 @@
 ---
 layout: post
 title: tmux使用笔记
+category: ops
 ---
 
 ![tmux](/assets/tmux-logo.png)是linux下非常好用的命令行session管理工具，断网后重连仍然可以回到原来的界面状态，而且支持分窗，让你可以在同一个界面下操作多个任务窗口。下面记录自己的使用笔记，以备后用。

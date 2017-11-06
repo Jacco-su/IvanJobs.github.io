@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在Linux下安装DNS服务
+category: ops
 ---
 
 ### 安装bind9
