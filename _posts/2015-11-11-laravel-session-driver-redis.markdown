@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 将laravel Session Driver改为redis
-categories: web laravel
+categories: web 
 ---
 
 最近将公司项目的Session Driver切换为redis，这里做一个记录。Laravel默认使用的是file，也就是说session信息存储在文件中。而redis是一个高效的内存键值对数据库，将session信息存储在redis中，显然会比存文件中要来的高效。下面介绍基本步骤。

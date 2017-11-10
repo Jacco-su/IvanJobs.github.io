@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vim Cheat Sheet
+category: linux
 ---
 
 ### 替换

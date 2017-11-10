@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ceph 索引
+category: ceph
 ---
 
 

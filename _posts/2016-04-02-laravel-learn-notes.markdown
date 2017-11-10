@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Laravel学习笔记
-category: laravel
+category: web 
 ---
 
 ### 增加全局helpers.php

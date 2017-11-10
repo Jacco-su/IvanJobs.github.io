@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ceph-deploy 配置文件比较 BUG
+category: ceph
 ---
 
 最近在安装Ceph RGW实例的时候，碰到一个问题：
