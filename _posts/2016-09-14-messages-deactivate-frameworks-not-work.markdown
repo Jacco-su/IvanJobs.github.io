@@ -1,6 +1,7 @@
 ---
 layout: post
 title: mesos master/messages_deactivate_frameworks 不生效？
+category: mesos
 ---
 
 ### 测试场景

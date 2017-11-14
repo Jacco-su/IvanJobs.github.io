@@ -4,6 +4,7 @@ layout: post
 
 title: Mesos Slave 如何上报资源？
 
+category: mesos
 ---
 
 

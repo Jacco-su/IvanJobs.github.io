@@ -1,6 +1,7 @@
 ---
 layout: post
 title: vuejs工具链简介
+category: javascript
 ---
 
 最近发现vuejs，比reactjs好学，但要进行产品级开发，vuejs周边的工具链必须有一个基本的了解。

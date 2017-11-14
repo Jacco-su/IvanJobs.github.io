@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在单机上搭建多Ceph集群
+category: ceph
 ---
 
 通常情况下，我们研究ceph源码只需要一个Ceph集群。但，在研究到特定问题时，确实需要搭建多套Ceph集群，比如RGW Multisites。

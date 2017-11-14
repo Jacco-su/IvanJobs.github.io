@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux命令使用记录 
+category: linux
 ---
 
 #### 设置ip,netmask,broadcast

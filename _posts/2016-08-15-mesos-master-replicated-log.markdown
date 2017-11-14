@@ -1,6 +1,7 @@
 ---
 layout: post
 title: mesos-master replicated_log存的是什么？
+category: mesos
 ---
 
 目前知道的，mesos master会使用replicated_log保存registry信息，那么这个registry信息以及这个replicated_log到底是什么？

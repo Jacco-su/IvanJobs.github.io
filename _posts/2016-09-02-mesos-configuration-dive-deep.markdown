@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mesos配置项深入分析
+category: mesos
 ---
 
 # Common

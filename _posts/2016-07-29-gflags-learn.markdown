@@ -1,6 +1,7 @@
 ---
 layout: post
 title: gflags学习笔记
+category: c/c++
 ---
 mesos中大量使用google提供的c++库，包括protobuff、glog、gtest、gmock等等。解析命令行参数使用了gflags, 这篇博客
 就来简单的介绍下gflags, 这样在看代码的时候，也不至于懵逼。

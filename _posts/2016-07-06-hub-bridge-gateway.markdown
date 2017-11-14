@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hub,Bridge,Switch和Gateway是什么？
+category: ops
 ---
 
 ### Hub

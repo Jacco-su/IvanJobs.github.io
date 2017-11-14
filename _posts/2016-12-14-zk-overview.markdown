@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ZooKeeper概览
+category: ops
 ---
 
 博主工作上主要focus在Mesos和Ceph，而ZooKeeper作为Mesos的核心组件，已经被写到半年计划中，所以必须得花时间认真研究ZK的内部原理。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: boost库的智能指针
+category: c/c++
 ---
 
 其实早在几年前，就研究过boost指针，那个是时候是在三星电子，做的是三星智能电视平台的开发。最近

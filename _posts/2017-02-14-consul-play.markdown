@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Consul使用笔记
+category: ops
 ---
 博主现正在开发一款运维系统，在架构上需要一个kv数据库、事件系统和Agent，为了减轻开发负担，灵活的选择了Consul作为基本构件。
 那么，要在生产上使用Consul，必须对Consul的使用有一个比较深入的掌握。本篇旨在帮助博主自己深入了解、进一步掌握Consul的使用。

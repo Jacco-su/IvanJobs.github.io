@@ -1,6 +1,7 @@
 ---
 layout: post
 title: mesos checkpoint是什么？
+category: mesos
 ---
 
 ### 背景

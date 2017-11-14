@@ -1,6 +1,7 @@
 ---
 layout: post
 title: strace使用入门
+category: ops
 ---
 
 我们在定位软件系统问题的时候，会使用到一个工具strace。strace是用来跟踪一个运行进程的系统调用情况，如果一个服务它的行为

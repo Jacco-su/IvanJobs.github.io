@@ -1,6 +1,7 @@
 ---
 layout: post
 title: mesos maintenance深度解析
+category: mesos
 ---
 
 ### 为啥要有这货？

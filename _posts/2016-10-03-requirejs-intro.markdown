@@ -2,7 +2,7 @@
 layout: post
 title: requirejs简介
 published: true
-categories: []
+categories: [javascript]
 tags: []
 ---
 

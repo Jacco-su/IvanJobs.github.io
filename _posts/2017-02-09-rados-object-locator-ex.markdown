@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Object Locator (Ceph) 探究笔记
+category: ceph
 ---
 
 **Object Locator**是ceph里的一个概念，有两个地方能够看到。一个是源码中，另外一个是ceph的命令行中。

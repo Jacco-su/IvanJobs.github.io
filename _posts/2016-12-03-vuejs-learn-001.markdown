@@ -1,6 +1,7 @@
 ---
 layout: post
 title: vuejs使用小结1
+category: javascript
 ---
 
 最近一周，用vuejs和element ui开发运维系统的前端UI，有一些小小的收获。在这里做一个简单的回忆总结，

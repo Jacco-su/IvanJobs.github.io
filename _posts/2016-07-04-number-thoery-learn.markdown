@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 数论学习笔记
+category: 算法
 ---
 ### 整数分类
 Integers:

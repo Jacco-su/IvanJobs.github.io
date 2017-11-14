@@ -1,6 +1,7 @@
 ---
 layout: post
 title: KMP算法杂谈
+category: 算法
 ---
 
 KMP算法是一款非常优秀的字符串匹配算法。周末花时间，好好研究了一下这个算法。其实
