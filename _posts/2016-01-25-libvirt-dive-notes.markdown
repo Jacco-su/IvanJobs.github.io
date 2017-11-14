@@ -1,7 +1,7 @@
 ---
 layout: post
 title: libvirt笔记
-categories: openstack c/c++
+categories: openstack cpp 
 ---
 
 ### libvirt的目标

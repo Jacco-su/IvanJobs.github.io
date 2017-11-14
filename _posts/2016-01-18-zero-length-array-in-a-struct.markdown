@@ -1,7 +1,7 @@
 ---
 layout: post
 title: zero length array in a struct
-categories: ceph c/c++
+category: ceph 
 ---
 
 ok, 在研究ceph的crush源码时，发现了这个问题。
