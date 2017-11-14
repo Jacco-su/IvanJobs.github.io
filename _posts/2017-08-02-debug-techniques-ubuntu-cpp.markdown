@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Debug CPP Program On Ubuntu
-category: c/c++
+category: cpp 
 ---
 
 ### Dive Into ELF

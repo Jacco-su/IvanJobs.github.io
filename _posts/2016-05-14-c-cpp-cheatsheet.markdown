@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C/C++ Cheat Sheet
-category: c/c++
+category: cpp 
 ---
 
 ### core dump gdb

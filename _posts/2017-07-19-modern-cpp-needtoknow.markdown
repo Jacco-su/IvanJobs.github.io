@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modern CPP Developer Need To Know
-category: c/c++ 
+category:  cpp 
 ---
 
 ### CMake
