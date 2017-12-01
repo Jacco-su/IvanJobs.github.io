@@ -22,7 +22,7 @@ favicon: /assets/icon/favicon.ico
 
 # disqus config
 disqus:
-  shortname: ivanjobs 
+  shortname: ivanjobsblog 
 
 # google analytics config
 #ga:
