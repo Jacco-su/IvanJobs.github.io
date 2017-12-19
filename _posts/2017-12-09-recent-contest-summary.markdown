@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [比赛总结]寻找打开解法大门的语义 
+title: ［比赛总结］寻找打开解法大门的语义 
 category: 算法
 ---
 
