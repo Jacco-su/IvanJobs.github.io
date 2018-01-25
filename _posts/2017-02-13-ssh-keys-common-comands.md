@@ -20,8 +20,6 @@ ssh的身份验证有两种方式，一种是用户名、密码，另一种是�
 信任远端主机
 
 ```
-```
-```
     # 10.12.10.61 SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.8
     10.12.10.61 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3vrEhtC3o2U4X18ul6x0PuCkL74EU5coI95liHI6gHQCTcMarTixuE+vc/f55TRf3U9Ab77tFX23F4FvVDpB+SUjhDT2ToCpYe+gUkn9M6MKeK289vRPHEYdQ4MVAYyJikyOPNFQfNucTmtRn5IAnm7PoW4mJ1eWKdm3P2vRky6EIjH4M4gKbo7mW0+YpRW0CGudHs/JhThzR/m4XFOpvv989K36i1uwrAYpAf1MTzCPCLybzLiXkz2x0Vgo41FGMqTbRbuDi88CtS90t6+PqCPO07Aj+6w+/32d5JtCokAigi8MAdtEFtQRP4Ou9RooaVtE3Xa3NYxLzbvR2paLn
     # 10.12.10.61 SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.8
@@ -29,11 +27,6 @@ ssh的身份验证有两种方式，一种是用户名、密码，另一种是�
 ```
 ssh-keyscan输出的内容可以填入know_hosts中，这样在第一次连接目标主机时，就不会提示输入yes/no了。这里的know_hosts保存的是信任的远端主机host keys。
 
-
-```
-```
-```
-```
 现在还需要填写用户密码，比较烦，我们可以使用公私钥的方式验证。只需要把当前客户端的公钥，分发到目标主机上即可。
 
 ```

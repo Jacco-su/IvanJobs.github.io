@@ -24,6 +24,7 @@ sudo apt-get install libapr1-dev
 sudo apt-get install -y maven
 sudo apt-get install -y libsasl2-dev
 sudo apt-get install -y libsvn-dev
+sudo apt-get install -y libcurl3-dev
 
 ../configure
 make -j4
