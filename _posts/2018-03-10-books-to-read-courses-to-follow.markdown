@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2018书单课单
-categories: Personal 
+categories: personal 
 ---
 
 ### 书单
