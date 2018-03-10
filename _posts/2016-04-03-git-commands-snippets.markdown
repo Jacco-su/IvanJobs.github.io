@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git命令Snippets
-category: dev ops 
+categories: dev ops 
 ---
 
 虽然已经使用Git很长时间了，但是有些高级命令还是会忘记，写这篇博客主要是为了帮助记忆，如果能够给读者提供一些帮助，我就不胜欣慰了。

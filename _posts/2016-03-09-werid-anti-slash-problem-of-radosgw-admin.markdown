@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph RGW S3接口测试：诡异的403 AccessDenied问题
-category: dev ops 
+categories: dev ops 
 ---
 
 最近在测试Ceph RGW S3接口，出现一个奇怪的问题。特此记录，以备后用。
