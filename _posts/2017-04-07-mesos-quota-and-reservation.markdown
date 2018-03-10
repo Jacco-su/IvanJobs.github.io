@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos Quota 和 Reservation
-category: mesos
+category: dev 
 ---
 
 如果对Quota和Reservation的概念了然于胸，这篇博客就不必看了。

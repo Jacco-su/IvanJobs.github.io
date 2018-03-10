@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenStack oslo 概览
-category: openstack
+category: dev 
 ---
 
 在阅读OpenStack源码的过程中，需要接触到很多oslo这个公用库里的东西，所以很有必要做一个统一的概览。这里介绍oslo里主要的模块，以及这些模块的简单概念，使用和会在什么地方出现。

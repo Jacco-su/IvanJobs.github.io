@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph源码分析
-category: ceph
+category: dev 
 ---
 
 ceph/src/rgw/rgw_rest_s3.h, ceph/src/rgw/rgw_op.h 中定义了ceph支持的s3接口。

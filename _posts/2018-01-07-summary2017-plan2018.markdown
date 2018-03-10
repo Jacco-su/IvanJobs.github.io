@@ -2,7 +2,7 @@
 layout: post
 title: 2017年总结/2018年展望 
 published: true
-categories: 其他 
+categories: Personal 
 ---
 
 时光荏苒，不知不觉2017年结束了，2018年开始了。照例，今晚有时间，也有些感触，开始写我的年度总结和展望，希望来年可以继续奋进！

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dockerfile中RUN/CMD/ENTRYPOINT的区分
-category: docker
+category: ops 
 ---
 
 在我们书写Dockerfile的时候，会有执行命令的需求。而Dockerfile包括了多种指令，看似都能满足我们的需求，但实际上存在着微妙的差异。

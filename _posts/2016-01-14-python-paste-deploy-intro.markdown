@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python PasteDeploy笔记
-category: python
+category: dev 
 ---
 
 最近一直在看OpenStack的源码，有很多项目都用了PasteDeploy, 所以今天做个笔记。刚看到一篇应该还不错的博文，讲的写一个简单的wsgi app，然后用paste deploy来部署，链接在[这里](http://hex-dump.blogspot.com/2005/11/deploying-wsgi-app-with-python-paste.html)。

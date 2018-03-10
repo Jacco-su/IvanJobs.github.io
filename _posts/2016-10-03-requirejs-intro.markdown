@@ -2,8 +2,7 @@
 layout: post
 title: requirejs简介
 published: true
-categories: [javascript]
-tags: []
+categories: dev 
 ---
 
 requirejs是前端开发经常会用到的一个库，它是什么，到底有哪些作用？以及如何使用？

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph Cluster调优日志
-category: ceph
+category: dev 
 ---
 
 在调优测试之前，先交代下Ceph集群环境：CentOS 7, Ceph Hammer 0.94.7, 3个节点，每个节点挂4块SAS 560G盘。

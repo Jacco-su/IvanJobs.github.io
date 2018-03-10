@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos GC原理解析
-category: mesos
+category: dev 
 ---
 
 

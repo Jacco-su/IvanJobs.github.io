@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph集群运维问题记录
-category: ceph
+category: ops 
 ---
 
 ### ceph-osd 服务启动不了

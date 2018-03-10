@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Decorator(装饰器)模式 笔记
-category: python
+category: dev 
 ---
 
 在阅读OpenStack代码以及其他框架代码的时候，经常会碰到一个类似于在类或者函数前面写上＠fool(a, b) 之类的，这些就是Decorator。它是设计模式中的一种，另外一个可能比较容易和它混淆的设计模式是Facade(门面)模式。两个模式是不一样的。Facade有点类似代理模式的意思，但是它比较侧重于把一堆乱麻的API封装成一套统一易用的API。而Decorator是一种扩展功能的模式。

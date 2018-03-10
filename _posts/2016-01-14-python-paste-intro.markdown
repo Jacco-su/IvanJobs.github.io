@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Paste笔记
-category: python
+category: dev 
 ---
 
 非常感谢[kevinzhang的博客](http://kevinzheng.sinaapp.com/?p=104),浅显易懂的介绍了wsgi和paste。这篇博文主要阐述了wsgi的概念，并且用了一个简单的例子来演示，具体代码可参考[这里](https://github.com/IvanJobs/openstack-dive-preparation/tree/master/wsgi_play)。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph Pool PG配置说明
-category: ceph
+categories: dev ops  
 ---
 
 Pool和PG的配置，是Ceph存储里最需要关注的核心点，对这块配置的掌握，有利于提升和优化Ceph集群的整体性能。官方文档中，强调了需要重新配置pool's replica size和默认的PG个数。可以通过两种方式改写，一种是在ceph.conf的global段中添加新的配置项，另一个是使用命令。

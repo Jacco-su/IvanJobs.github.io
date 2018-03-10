@@ -2,7 +2,7 @@
 layout: post
 title: shell脚本编写向导
 published: true
-category: ops 
+categories: dev ops 
 ---
 
 ## 前面的话

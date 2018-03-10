@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph CRUSH Map 维护详解
-category: ceph
+category: ops 
 ---
 ### 如何看待CRUSH Map?
 > CRUSH maps contain a list of OSDs, 

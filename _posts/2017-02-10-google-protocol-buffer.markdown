@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Protocol buffers 代码入门
-category: cpp 
+category: dev 
 ---
 
 > Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.

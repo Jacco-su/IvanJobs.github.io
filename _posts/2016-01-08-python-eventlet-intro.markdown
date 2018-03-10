@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python eventlet笔记
-category: python
+category: dev 
 ---
 
 eventlet是python的一款网络高并发库。这个库，在我目前的理解来看，主要是用了两个技术，一个是linux操作系统层面的IO多路复用技术，也就是我们常说的select/poll/epoll。另一个是Python语言层面的特性，coroutine(协程)。今天(2016.1.10)只能简单的介绍下我对这两个事物的理解，至于如何使用eventlet库，因为没有丰富的实际经验，所以就留到后面补充了。

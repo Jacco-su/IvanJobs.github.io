@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph配置项
-category: ceph
+category: ops 
 ---
 刚开始学习一个系统，可以从两个方面入手，一个是API，一个是配置。这边文档就是从配置的角度入手，探究ceph的内部原理和过程。ceph运行起来的时候，默认配置可以从源码文件src/common/config_opts.h中查看到。ceph的配置文件只有一个，即ceph.conf, 所有的配置都在这一个文件中。下面根据不同的服务来分类不同的配置项。
 

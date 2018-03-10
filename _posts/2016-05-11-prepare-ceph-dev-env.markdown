@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 准备Ceph开发环境
-category: ceph
+category: dev 
 ---
 
 搭建一个开发环境，是学习Ceph源码以及参与到Ceph开发中的基本前提，本文参考了Ceph中国社区官方QQ群中的相关资料。

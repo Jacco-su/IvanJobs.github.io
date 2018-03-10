@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph核心概念备忘录
-category: ceph
+category: ops 
 ---
 ### scrub
 ceph-osd会定义启动scrub线程，扫描部分对象（哪些对象？），和其他副本比较，发现是否一致。如果发现不一致，ceph会抛出这个异常给用户解决。以PG为粒度，触发scrub。用户手动修复，使用：

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph源码解析(3)-rados put过程探究
-category: ceph
+category: dev 
 ---
 之前写过一篇源码解析，分析了object到PG一层的映射关系，其中关键的函数为ceph_stable_mod。但是
 对于PG到OSDs这层映射却没有提及，而这一层映射是CRUSH算法最核心的地方，对应到OSDMap.cc里的

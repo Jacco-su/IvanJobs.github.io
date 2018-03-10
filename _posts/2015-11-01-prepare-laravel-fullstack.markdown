@@ -2,7 +2,7 @@
 layout: post
 title: 搭建Laravel全栈开发环境
 published: true
-categories: web 
+categories: dev ops
 ---
 
 ## 系统以及软件包版本信息：

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: stout学习笔记
-category: mesos 
+category: dev 
 ---
 stout是mesos中大量使用的库，该库中有很多元语，下面分别介绍一下用法，这样在看mesos源码时不至于懵逼。
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: score_thresholder服务开发总结
-category: cpp
+category: dev 
 ---
 
 最近独立完成了一个服务程序的开发，使用现代的C++语言，在这个过程中学到很多，很有必要记录下来。

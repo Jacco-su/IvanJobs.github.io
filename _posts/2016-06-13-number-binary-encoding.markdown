@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 原码、反码、补码笔记
-category: 其他
+category: algorithm 
 ---
 
 

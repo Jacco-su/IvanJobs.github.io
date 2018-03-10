@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos Offer生命周期杂记
-category: mesos
+category: dev 
 ---
 
 之前在研究Mesos原理的时候，遇到了Offer Filter的概念，当时只简单理解了一下：Offer Filter提供了一种过滤的机制，也就是说某个Framework有能力去过滤掉一些他不想要的Offer。

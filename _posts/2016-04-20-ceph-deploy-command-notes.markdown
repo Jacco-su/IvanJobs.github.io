@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ceph-deploy命令详解
-category: ceph
+category: ops 
 ---
 虽然一直使用ceph-deploy来部署ceph集群，但实际上对ceph-deploy的各个命令并没有深入了解，只是按照安装文档里的步骤机械的操作而已，所以现在对ceph-deploy的每个命令做的事情，以及ceph-deploy的整个模型有一个基础的认识。
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: libprocess学习笔记
-category: mesos
+category: dev 
 ---
 mesos的跨主机进程间通信使用的是libprocess，这是ben在写mesos的时候顺带写的一个网络通信库，如果不了解这个库，
 mesos的大部分代码你都会是一种懵逼的状态。

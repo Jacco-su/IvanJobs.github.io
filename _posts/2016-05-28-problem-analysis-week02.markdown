@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 题解[第二周]
-category: 算法
+category: algorithm 
 ---
 
 ### CF354DIV2B

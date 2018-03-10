@@ -1,7 +1,7 @@
 ---
 layout: post
 title: s3cmd使用说明
-category: ceph
+category: ops 
 ---
 
 ```

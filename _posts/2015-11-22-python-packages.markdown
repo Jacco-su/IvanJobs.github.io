@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 包管理详解
-categories: python ops
+categories: dev ops 
 ---
 
 预计以后Python会是我工作的主要语言，所以最近也留心整理一些Python相关的基础知识．Python包管理是比较重要的一个部分，所以在这里整理一下，方便以后查看和回顾．

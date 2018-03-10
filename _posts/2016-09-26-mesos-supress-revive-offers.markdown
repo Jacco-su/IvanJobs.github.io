@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos Supress/Revive Offers测试
-category: mesos
+category: dev 
 ---
 
 

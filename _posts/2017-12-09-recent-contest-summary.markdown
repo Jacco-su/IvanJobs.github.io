@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 寻找正确的语义[比赛总结] 
-category: 算法
+category: algorithm 
 ---
 
 本周参加了两场基础算法比赛：牛客网的“Wannafly挑战赛5”和Codeforces Div2 449。

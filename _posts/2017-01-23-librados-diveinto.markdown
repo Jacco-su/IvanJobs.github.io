@@ -1,7 +1,7 @@
 ---
 layout: post
 title: librados接口使用
-category: ceph
+category: dev 
 ---
 rados作为ceph最核心的部件，它的接口库librados的作用不言而喻。本篇博客旨在通过介绍librados的接口，让
 大家对rados能做哪些事儿、有哪些概念有一个清晰的了解。

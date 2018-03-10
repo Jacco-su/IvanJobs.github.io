@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph RGW Pools 浅析
-category: ceph
+category: ops 
 ---
 
 在分析RGW源码之前，我们可以先用“黑盒”的方式观察一下：RGW是怎样使用pool/object模型的？可以不深入原理，

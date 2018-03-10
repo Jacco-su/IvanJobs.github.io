@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph Rest API 身份验证方式(S3)
-category: ceph
+category: dev 
 --- 
 
 Ceph提供了两套API接口，用以操作存储的对象。一套兼容Amazon S3，另一套兼容swift。由于Ceph提供的账号管理接口，使用的是S3的身份验证方式，为了保持一致，对象操作的接口也选用S3的。然而S3的身份验证方式略显复杂，加之ceph官方文档说的不清不楚，这里必须清晰的阐述，以备后用。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph源码解析(2)-rados put过程探究
-category: ceph
+category: dev 
 ---
 
 我们知道Ceph核心特性之一就是CRUSH算法，这个算法决定了在写数据和读数据时，如何确定数据的地址。

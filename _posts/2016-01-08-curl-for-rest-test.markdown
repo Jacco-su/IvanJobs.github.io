@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用curl测试RESTful接口
-category: ops
+category: dev 
 ---
 
 

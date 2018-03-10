@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph故障解析-filestore_merge_threshold
-category: ceph
+category: ops 
 ---
 
 最近参与了一项Ceph新老集群数据迁移的工作，在解决Block Requests故障领域，积累了第一份经验。本篇博客，旨在介绍

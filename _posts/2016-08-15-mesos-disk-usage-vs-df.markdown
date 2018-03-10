@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mesos disk usage vs df 结果不一致问题
-category: mesos
+category: ops 
 ---
 
 ### 背景

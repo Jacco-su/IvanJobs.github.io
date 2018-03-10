@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COSBench使用笔记
-category: ceph
+category: ops 
 ---
 
 ### 安装cosbench

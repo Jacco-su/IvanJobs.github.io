@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph 笔记
-category: ceph
+category: dev 
 ---
 
 Ceph是眼下比较热的存储解决方案，主要提供对象存储，块存储和分布式文件系统服务。

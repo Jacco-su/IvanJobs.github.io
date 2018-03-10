@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos 1.0.0 源码解析杂记
-category: mesos
+category: dev 
 ---
 这里记录下分析mesos源码的所得，会比较杂，权当博主自己的备忘。
 

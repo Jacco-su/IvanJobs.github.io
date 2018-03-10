@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mesos maintenance深度解析
-category: mesos
+categories: dev ops 
 ---
 
 ### 为啥要有这货？

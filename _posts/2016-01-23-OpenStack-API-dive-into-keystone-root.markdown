@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenStack KeyStone API http://localhost:5000/ 源码追踪
-category: openstack
+category: dev 
 ---
 
 ### apache相关配置

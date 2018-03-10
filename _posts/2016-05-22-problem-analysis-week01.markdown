@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 题解[第一周]
-category: 算法
+category: algorithm 
 ---
 
 ### LA 3708

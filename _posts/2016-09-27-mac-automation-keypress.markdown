@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 可编程自动化输入方案(Mac下)
-category: 其他
+category: ops 
 ---
 
 今天在用ewf申请机器权限的时候，发现输入主机列表的设计太不人性化了。

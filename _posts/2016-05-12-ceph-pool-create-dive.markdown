@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph源码解析(1)-Create Pool过程探究
-category: ceph
+category: dev 
 ---
 
 这篇博客目的很单一，就是探究Create Pool的执行流程，实验的上下文也很简单，使用命令行工具创建Pool，在ceph源码中打log，以此来探究Ceph源码的执行过程，以及调用流程中遭遇的相关概念和技术。

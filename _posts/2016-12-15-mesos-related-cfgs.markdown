@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos关联配置
-category: mesos
+category: dev 
 ---
 
 在修改Mesos配置的过程中，有一种情况，极其需要留意，那就是有关联的配置项。如果在运维过程中，

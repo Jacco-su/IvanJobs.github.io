@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph v10.2.3 RGW源码解析1
-category: ceph
+category: dev 
 ---
 因公司业务发展要求，最近需要做一些Ceph RGW相关的工作。对RGW的原理只知一二，在未来维护的过程中，将带来极大的阻力，
 故在此利用周末时间，进一步学习、梳理Ceph RGW底层原理（主要还是以源码为线索）。

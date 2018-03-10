@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mesos agent /monitor/statistics返回数据业务意义
-category: mesos
+category: dev 
 ---
 
 ### 背景

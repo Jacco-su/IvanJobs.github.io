@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ceph fuse挂载cephfs, ls不出文件列表问题，调试记录
-category: ceph
+category: ops 
 ---
 公司有同事在使用cephfs做数据库文件备份，发现一个奇怪的问题，在使用了一段时间cephfs之后，发现有些cephfs客户端
 上ls不出文件列表，导致备份失败。后来，通过调大mds_client_prealloc_inos参数，从1000调整到10000，暂时解决了该问题。

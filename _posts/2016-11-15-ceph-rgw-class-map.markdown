@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph v10.2.3 RGW源码解析2
-category: ceph
+category: dev 
 ---
 
 看rgw代码的时间很短，对于rgw代码的脉络还摸不着头脑。恰巧看某博主的大作：RGW类图，遂分析之。

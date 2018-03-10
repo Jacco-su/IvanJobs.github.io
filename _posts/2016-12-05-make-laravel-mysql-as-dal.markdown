@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 基于laravel+mysql的容器化DAL方案
-categories: web 
+categories: dev 
 ---
 伴随着微服务架构的流行，我们的DB也需要跟着微服务化。以前都是直接通过mysql的3306端口连接数据库，进行数据操作。
 现在很自然的想到，通过在DB前面封装一层HTTP Restful API，对外暴露数据库操作的接口。这样的一种方案，有它的优势。

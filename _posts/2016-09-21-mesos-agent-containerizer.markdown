@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesos Agent Containerizer分析
-category: mesos
+category: dev 
 ---
 
 

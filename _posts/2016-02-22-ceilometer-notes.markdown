@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenStack Ceilometer 笔记
-category: openstack
+category: dev 
 ---
 
 Ceilometer是OpenStack中的一个项目，主要用来做监控和计费。由于近期被安排了一个做云监控的任务，故仔细研究Ceilometer的架构和实现，以及安装部署等方面的内容。

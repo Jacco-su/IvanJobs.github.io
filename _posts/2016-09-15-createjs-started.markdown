@@ -1,7 +1,7 @@
 ---
 layout: post
 title: get started with createjs chapter 1 notes
-category: javascript
+category: dev 
 ---
 
 Firstly, chapter 1 show us pain points of animation development with raw H5 Canvas API. EaselJs lib is about to 

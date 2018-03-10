@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ceph新技能Get
-category: ceph
+category: dev 
 ---
 
 上周对我司新搭建的Ceph集群进行了Benchmark，并且辅助进行了新老集群的数据迁移工作。
