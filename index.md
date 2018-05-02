@@ -24,3 +24,5 @@ ivan1377@163.com
 [dreamoon](https://dreamoon4.blogspot.com/)
 [jackpgao](https://jackpgao.github.io/)
 [eternallyconfused](http://eternallyconfuzzled.com/)
+[hubotao](http://amber.botao.hu/)
+[byvoid](https://www.byvoid.com/)
