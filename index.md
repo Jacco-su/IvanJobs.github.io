@@ -21,8 +21,13 @@ ivan1377@163.com
 
 ### Favorite Links
 [becauseofyou](http://problem-solving.cn/)
+
 [dreamoon](https://dreamoon4.blogspot.com/)
+
 [jackpgao](https://jackpgao.github.io/)
+
 [eternallyconfused](http://eternallyconfuzzled.com/)
+
 [hubotao](http://amber.botao.hu/)
+
 [byvoid](https://www.byvoid.com/)
