@@ -24,6 +24,8 @@ ivan1377@163.com
 
 [dreamoon](https://dreamoon4.blogspot.com/)
 
+[徐霁的博客](http://www.xuji.pro/)
+
 [jackpgao](https://jackpgao.github.io/)
 
 [eternallyconfused](http://eternallyconfuzzled.com/)
