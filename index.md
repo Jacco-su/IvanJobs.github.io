@@ -18,20 +18,3 @@ I am interested in <b>Operating System</b>, <b>Algorithms</b>, <b>C++</b>, <b>We
 <blockquote>
 ivan1377@163.com
 </blockquote>
-
-### Favorite Links
-[becauseofyou](http://problem-solving.cn/)
-
-[dreamoon](https://dreamoon4.blogspot.com/)
-
-[徐霁的博客](http://www.xuji.pro/)
-
-[jackpgao](https://jackpgao.github.io/)
-
-[eternallyconfused](http://eternallyconfuzzled.com/)
-
-[hubotao](http://amber.botao.hu/)
-
-[byvoid](https://www.byvoid.com/)
-
-[william](http://www.williamfiset.com/)
