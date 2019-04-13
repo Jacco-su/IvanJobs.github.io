@@ -2,7 +2,13 @@
 # for example: ./new_post.sh hello world
 TODAY=`date +%Y-%m-%d`
 
-NAME=_posts/$TODAY-$1.markdown # name concated with dashes.
+NAME=_posts/$TODAY
+for var in "$@"
+do
+    NAME=${NAME}-${var}
+done
+
+NAME=${NAME}.markdown # name concated with dashes.
 
 touch $NAME
 
