@@ -1,0 +1,21 @@
+---
+layout: post
+title: Summary of year 2018, Plan for year 2019
+categories: personal
+---
+
+Today is April 13th of year 2019. It seems a bit late for summary of 2018 and plan for 2019, but
+ I believe that it's never too late to start all over again.
+
+### 2019 is a special year
+Yeah, 2019 is special because I'm gotta have a baby in this year. It made me nervous all the time in my deep heart. All my focus is on my baby, and I am too busy to give a free moment to summarize my year of 2018 and give a decent plan for year of 2019, but now I am available because my baby daughter has been born at April 7th of 2019, So let me begin.
+
+### Summary of 2018
+I've achieved the goal of making 20+ courses on study.163.com and I'm happy with myself but not so proud because I make just 21 courses and it's not too many.
+
+For the stock market, I'm a loser. Not only the amount of money I put into the stock market was not exceed 70,000 rmb, but also year of my yield is negative. I was just lucky in year of 2017, but this luckiness was not last for 2018. Truth be told, I'm not an expert on stock investment, so I plan to quit the stock market for some years.
+
+In 2018, I planned to publish a book about ClickHouse but underestimated the difficulty of writing a technical book. For this goal, I failed again, and just wrote about 10000 characters.
+In 2019, I will keep doing this but not expect to finish this book.
+
+### Plan for 2019
