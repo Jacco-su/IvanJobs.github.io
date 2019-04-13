@@ -4,18 +4,23 @@ title: Summary of year 2018, Plan for year 2019
 categories: personal
 ---
 
-Today is April 13th of year 2019. It seems a bit late for summary of 2018 and plan for 2019, but
- I believe that it's never too late to start all over again.
+Today is April 13th of year 2019. It seems a bit late for a summary of 2018 and a plan for 2019, but
+ I believe that it's never too late to do sth.
 
 ### 2019 is a special year
-Yeah, 2019 is special because I'm gotta have a baby in this year. It made me nervous all the time in my deep heart. All my focus is on my baby, and I am too busy to give a free moment to summarize my year of 2018 and give a decent plan for year of 2019, but now I am available because my baby daughter has been born at April 7th of 2019, So let me begin.
+Yeah, 2019 is special because will have a baby in this year. It made me nervous all the time in my deep heart. All my focus was on my baby, and I was too busy to give a free moment to summarize my year of 2018 and give a decent plan for year of 2019, but now I am available because my baby daughter has been born at April 7th of 2019, So let me begin.
 
 ### Summary of 2018
-I've achieved the goal of making 20+ courses on study.163.com and I'm happy with myself but not so proud because I make just 21 courses and it's not too many.
+I've achieved the goal of making 20+ courses on study.163.com and I'm happy with myself but not so proud because I made just 21 courses and it's not too many.
 
-For the stock market, I'm a loser. Not only the amount of money I put into the stock market was not exceed 70,000 rmb, but also year of my yield is negative. I was just lucky in year of 2017, but this luckiness was not last for 2018. Truth be told, I'm not an expert on stock investment, so I plan to quit the stock market for some years.
+For the stock market, I'm a loser. Not only the amount of money I put into the stock market did not exceed 70,000 rmb, but also year of my yield was negative. I was just lucky in year of 2017, but this luckiness was not last for 2018. Truth be told, I'm not an expert on stock investment, so I plan to quit the stock market.
 
 In 2018, I planned to publish a book about ClickHouse but underestimated the difficulty of writing a technical book. For this goal, I failed again, and just wrote about 10000 characters.
 In 2019, I will keep doing this but not expect to finish this book.
 
+In 2018, I planned to learn some online courses and read some books, but failed again, so here I realized I need to do the math of substraction, and listed too many courses or books to finish was not a wise choice, because you just did not have enough time.
+
 ### Plan for 2019
+After my baby daughter came out, I asked myself again and again with the question: "what do you truly want to become?" Currently, I'm good software engineer with about 8 years experience. I can definitely become a technical expert in some field in the long run, but it's not exactly what I want for my career. What I want for my career is to start a technical company doing business in the field of education. My plan should help me to achieve this final goal.
+
+
