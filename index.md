@@ -10,7 +10,7 @@ I am a <b>software engineer</b>, a <b>math lover</b>, and also a <b>marathon run
 This site is dedicated to providing infomation about me and what I do.
 
 I currently work in **Shang Hai**, in a big-data company called [zamplus](http://www.zamplus.com/),<br/>
-as a <b>C++ Backend Engineer</b>.
+as a <b>Data Engineering Team Leader</b>.
 
 I am interested in <b>Operating System</b>, <b>Algorithms</b>, <b>C++</b>, <b>Web Technology</b>, <b>Sports</b>, <b>Finance</b> and <b>Deep Learning</b>, talking about these things is welcome.
 
